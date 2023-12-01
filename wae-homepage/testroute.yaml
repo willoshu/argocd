@@ -3,12 +3,12 @@ kind: Route
 metadata:
   creationTimestamp: null
   labels:
-    app: test
+    app: wae-homepage
     app.kubernetes.io/instance: ocp-argocd-application
-  name: test
+  name: wae-homepage
   namespace: wae-homepage
 spec:
-  host: test-wae-homepage.apps.ocp.wae.local
+  host: wae-homepage.apps.ocp.wae.local
   port:
     targetPort: 8080-8080
   to:

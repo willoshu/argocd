@@ -3,20 +3,20 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: test
-  name: test
+    app: wae-homepage
+  name: wae-homepage
   namespace: wae-homepage
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: test
+      app: wae-homepage
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: test
+        app: wae-homepage
     spec:
       containers:
       - image: willoshu/wae-homepage

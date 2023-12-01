@@ -3,8 +3,8 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    app: test
-  name: test
+    app: wae-homepage
+  name: wae-homepage
   namespace: wae-homepage
 spec:
   ports:
@@ -13,6 +13,6 @@ spec:
     protocol: TCP
     targetPort: 8080
   selector:
-    app: test
+    app: wae-homepage
 status:
   loadBalancer: {}
