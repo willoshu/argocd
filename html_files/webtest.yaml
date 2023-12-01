@@ -19,7 +19,7 @@ spec:
         app: test
     spec:
       containers:
-      - image: centos/httpd-24-centos7
+      - image: willoshu/wae-homepage
         name: httpd
         ports:
         - containerPort: 8080
